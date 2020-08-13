@@ -6,11 +6,11 @@ var foodObj;
 var gameState,readState;
 
 function preload(){
-sadDog=loadImage("Dog.png");
-happyDog=loadImage("happy dog.png");
-garden=loadImage("Garden.png");
-washroom=loadImage("Wash Room.png");
-bedroom=loadImage("Bed Room.png");
+sadDog=loadImage("Images/Dog.png");
+happyDog=loadImage("Images/happy dog.png");
+garden=loadImage("Images/Garden.png");
+washroom=loadImage("Images/Wash Room.png");
+bedroom=loadImage("Images/Living Room.png");
 }
 
 function setup() {
@@ -33,9 +33,9 @@ function setup() {
     gameState=data.val();
   });
    
-  dog=createSprite(200,400,150,150);
+  dog=createSprite(400,400,150,150);
   dog.addImage(sadDog);
-  dog.scale=0.15;
+  dog.scale=0.25;
   
   feed=createButton("Feed the dog");
   feed.position(700,95);
