@@ -6,11 +6,11 @@ var foodObj;
 var gameState,readState;
 
 function preload(){
-sadDog=loadImage("Images/Dog.png");
-happyDog=loadImage("Images/happy dog.png");
-garden=loadImage("Images/Garden.png");
-washroom=loadImage("Images/Wash Room.png");
-bedroom=loadImage("Images/Living Room.png");
+sadDog=loadImage("Dog.png");
+happyDog=loadImage("happy dog.png");
+garden=loadImage("Garden.png");
+washroom=loadImage("Wash Room.png");
+bedroom=loadImage("Living Room.png");
 }
 
 function setup() {
